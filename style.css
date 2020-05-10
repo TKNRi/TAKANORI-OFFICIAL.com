@@ -1,0 +1,230 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: rgba(0,225,0,.8);
+}
+
+.top {
+    background-image: url("../img/yakei.JPG");
+    background-size: cover;
+}
+
+.top-title {
+    animation-name:fadein;
+    animation-duration:2s;
+}
+
+@keyframes fadein {
+    from {
+      opacity:0;
+      transform:translateY(20px);
+    }
+    to {
+     opacity:1;
+     transform:translateY(0);
+   }
+  }
+
+.sct {
+  font-family: arial black;
+  font-size: 32px;
+}
+
+.sns-item {
+    padding:6px 24px;
+    color:white;
+    display:inline-block;
+    opacity:0.9;
+    border-radius:4px;
+    margin-top:8px;
+    border: none;
+    margin-left: 4px;
+    height: 31px;
+  }
+  
+  
+  .Instagram {
+    background:linear-gradient(to right,#5478f2 0%,#f23f79 60%,orange 100%);
+    letter-spacing:2px;
+  }
+  
+  .Instagram span{
+    display:inline-block;
+    position:relative;
+    transition:.5s
+  }
+  
+  .Instagram:hover span{
+    transform:rotateX(360deg);
+  }
+  
+  .Instagram:hover {
+    opacity:1;
+    color: white;
+  }
+  
+  .Twitter {
+    background-color:#55acee;
+    padding:6px 32px;
+    letter-spacing:3px;
+  }
+  
+  .Twitter:hover {
+    opacity:1;
+    color: white;
+  }
+  
+  .Twitter span {
+    display:inline-block;
+    position:relative;
+    transition:.5s
+  }
+  
+  .Twitter:hover span {
+    transform:rotateX(360deg);
+  }
+  
+  .Facebook {
+    background-color:#3b5998;
+    letter-spacing:2px;
+    padding: 6px 29px;
+  }
+  
+  .Facebook:hover {
+    opacity:1;
+    color: white;
+  }
+  
+  .Facebook span {
+    display:inline-block;
+    position:relative;
+    transition:.5s
+  }
+  
+  .Facebook:hover span {
+    transform:rotateX(360deg);
+  }
+  
+  .fa {
+    margin-right:5px
+  }
+
+  .sns {
+      background: linear-gradient(-45deg,rgba(246,255,0,.8),rgba(255,0,161,.8))fixed;
+
+  }
+
+  .skill-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icon-p {
+    text-align: center;
+  }
+
+  .html img {
+    height: 72px;
+  }
+
+  .html:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .css img {
+    height: 72px;
+  }
+
+  .css:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .bootstrap img {
+    height: 72px;
+  }
+
+  .bootstrap:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .sass img {
+    height: 72px;
+  }
+
+  .sass:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .JS img {
+    height: 72px;
+  }
+
+  .JS:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .JQ img {
+    height: 72px;
+  }
+
+  .JQ:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .Ruby img {
+    height: 72px;
+  }
+
+  .Ruby:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .WP img {
+    height: 72px;
+  }
+
+  .WP:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .contact {
+      background-color: #28A745;
+  }
+
+
+/*===========================
+スマホ共通表示
+===========================*/
+
+@media only screen and (max-width: 767px) {
+
+  .about {
+      text-align: center;
+  }
+
+  .serviceFirst {
+      padding-bottom: 0px !important;
+  }
+
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .itm {
+    padding-bottom: 25px;
+  }
+
+}
+
